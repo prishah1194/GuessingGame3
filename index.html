@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Guessing Game</title>
+
+    <!-- Bootstrap and CSS here-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel='stylesheet' type='text/css' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+    
+  </head>
+  <body>
+
+      <div id='app'>
+<div class="center">
+        <div id='headers'>
+          <h1 id="title">Let's play the Guessing Game!!</h1>
+          <h2 id="subtitle">Guess a number between 1 - 100
+          <!-- Title and subtitles! -->
+        </div>
+
+        <div id='main'>
+          
+          <div id='input-parent'>
+             <input id="yourNumb" placeholder="Your Number" maxlength='3'></input>
+      
+              <button id="submit" class="btn btn-success">Submit</button>
+          
+            <!-- Player's guess input, and submit button -->
+          </div>
+
+          <div id='guesses'>
+              <ul id="guess-list">
+                  <li class="guess">-</li>
+                  <li class="guess">-</li>
+                  <li class="guess">-</li>
+                  <li class="guess">-</li>
+                  <li class="guess">-</li>
+                </ul>  
+            <!-- unordered list of guesses -->
+          </div>
+
+          <div id="menu-btns">
+            <!-- reset and hint buttons -->
+            <button id="reset" class="btn btn-warning">Reset</button>
+            <button id="hint" class="btn btn-info">Hint</button>
+          </div>
+        </div>
+      </div>
+
+
+
+    <div id='footer' class="center">
+        <div>
+          <div class="col-sm-4 col-md-4 col-lg-4">
+            <img src='fa-logo@2x.png'></img>
+          </div>
+
+          <div class="col-sm-4 col-md-4 col-lg-4">
+            <h4>Project by Priyanka Deven Shah</h4>
+          </div>
+
+          <div class="col-sm-4 col-md-4 col-lg-4">
+            <img src='grace_hopper_academy.png'></img>
+          </div>
+         </div>
+
+        </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="guessgame.js"></script>
+
+  </body>
+</html>
